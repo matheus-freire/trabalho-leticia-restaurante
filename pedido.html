@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="pedido.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">Trattoria Braga</div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quemsomos.html">Quem Somos</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="index.html">Cardapio</a></li>
+            <li><a href="pedido.html" class="btn-pedidos">Pedidos</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="hero">
+        <h1>Trattoria Braga</h1>
+        <h2>Sobre nós</h2>
+      </div>
+    </header>
+    <div class="container">
+      <h1>Confirmação de Pedido</h1>
+
+      <div class="order-details">
+        <h2>Descrição do Pedido</h2>
+        <p>Produto: macarrao</p>
+        <p>Quantidade: 1/p></p>
+        <p>Preço: R$ 51,99</p>
+      </div>
+
+      <form class="order-form">
+        <h2>Endereço de Entrega</h2>
+        <label for="rua">Rua:</label>
+        <input type="text" id="rua" name="rua" required />
+
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" name="bairro" required />
+
+        <label for="numero">Número:</label>
+        <input type="text" id="numero" name="numero" required />
+
+        <label for="apartamento">Apartamento:</label>
+        <input type="text" id="apartamento" name="apartamento" />
+
+        <a href="index.html"><button type="button">Confirmar Pedido</button></a>
+      </form>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-content">
+          <h3>Trattoria Braga</h3>
+          <p>Sabor autêntico e tradição italiana.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#">Contato</a>
+          <a href="#">Termos de Serviço</a>
+          <a href="#">Termos de Uso</a>
+          <a href="#">Política de Privacidade</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Trattoria Braga. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
